@@ -1,0 +1,684 @@
+header {
+    height: 100vh;
+}
+
+header .imgHeader {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+
+
+}
+
+header .sliderContainer1 {
+
+
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+
+}
+
+header .sliderContainer1 .slider1 {
+
+    height: 100%;
+    width: 500%;
+    display: flex;
+    margin-left: -100%;
+    overflow-x: hidden;
+
+
+
+}
+
+header .sliderContainer1 .slider1 .itemSlider {
+    width: 50%;
+    overflow: hidden;
+
+}
+
+header .sliderContainer1 .slider1 .itemSlider .imgSlider {
+
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+
+
+}
+
+header .imgHeader .imgGlass {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+}
+
+header .imgHeader .imgGlass .headerContent {
+    
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 5% 7%;
+    max-width: 950px;
+}
+
+header .imgHeader .imgGlass .headerContent h1 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+header .imgHeader .imgGlass .headerContent p {
+    text-align: justify;
+    line-height: 1.3;
+    font-size: 1.1rem;
+    font-weight: 200;
+    letter-spacing: 1.1;
+
+}
+
+/***Asambleas***/
+.asambleas {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.slider2 {
+    display: flex;
+    min-width: 1000%;
+    margin-left: -100%;
+}
+
+.slider2 .itemSlider2 {
+    width: 100%;
+}
+
+.slider2 .itemSlider2 .card {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+}
+
+.slider2 .itemSlider2 .card h4 {
+    height: 50px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.slider2 .itemSlider2 .card img {
+    display: block;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.rightAsambleas {
+    right: 0;
+}
+
+.leftAsambleas {
+    left: 0px;
+}
+
+.rightAsambleas, .leftAsambleas {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: rgba(255, 255, 255, .5);
+    z-index: 99;
+    
+}
+
+.rightAsambleas img, .leftAsambleas img {
+    margin: 15px;
+}
+
+.asambleasBtn {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+}
+
+.asambleasBtn span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.asambleasBtn:hover {
+    transition: all .5s;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+
+}
+
+/*About*/
+
+.about {
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+.about .mision-vision .mision, .about .mision-vision .vision {
+   
+    padding: 10% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+
+}
+
+.about .mision-vision .mision h2, .about .mision-vision .vision h2 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.about  span {
+    border: 1px solid #fff;
+    width: 100px;
+    justify-content: center;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 200;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 15px 0;
+}
+.about  span:hover{
+    transform: scale(1.1);
+}
+
+.about .mision-vision .mision p, .about .mision-vision .vision p {
+    font-weight: 200;
+    line-height: 2;
+    padding: 25px 0 0 0;
+}
+
+.about .mision-vision .vision {
+    background-color: rgb(0, 150, 0);
+    margin-top: -4px;
+}
+
+.about .mision-vision .mision {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.about .mision-vision img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 400px;
+
+}
+
+.about .objetivos img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.about .objetivos .content {
+    background-color: rgb(224, 186, 60);
+    padding: 50px 10%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -5px;
+
+}
+
+.about .objetivos .content h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.about .objetivos .content p {
+    margin-top: 40px;
+}
+
+.about .objetivos .content ul {
+    list-style: inside;
+    list-style-position: outside;
+    padding: 20px 40px 10px 10px;
+    font-weight: 200;
+}
+
+.about .objetivos .content ul li {
+    margin-bottom: 10px;
+}
+
+
+/***Galeria*****/
+
+.imgBox {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+
+}
+
+.imgBox .btnGallery {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    font-size: 6rem;
+    cursor: pointer;
+    font-weight: 200;
+
+}
+
+.imgBox .btnGallery.R {
+    right: 10%;
+
+}
+
+.imgBox .btnGallery.L {
+    left: 10%;
+
+}
+
+.imgBox .salirGaleria {
+    position: absolute !important;
+    top: 5%;
+    right: 5%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 200;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0 13px;
+    z-index: 999999999999999;
+
+}
+
+.imgBox .imgFull {
+    max-width: 90%;
+    width: 600px;
+
+    height: auto;
+
+}
+
+.imgBox .imgFull img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.galeria h2 {
+    font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.galeria .galeriaContainer {
+    display: flex;
+    max-width: 1200px;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.galeria .galeriaContainer .imgGaleria {
+
+    width: 300px;
+    height: 300px;
+}
+
+
+.galeria .galeriaContainer .imgGaleria img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.galeria .galeriaContainer .imgGaleria img:hover {
+    transform: scale(1.1, 1.1);
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 31px 75px rgba(68, 77, 136, .5);
+}
+
+/***Parralax***/
+
+.parralax {
+    height: 400px;
+    background-image: url('../img/parralax.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/*contact*/
+.contact {
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.contact>div {
+    display: flex;
+}
+
+.contact .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.contact .left h3 {
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+
+.contact .left form {
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+}
+
+
+
+
+.contact .left form .inputBox {
+    position: relative;
+
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+
+
+}
+
+.contact .left form .inputBox input {
+
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none;
+    width:80%;
+
+}
+
+.contact .left form .inputBox textarea {
+    min-height: 70px;
+}
+
+.contact .left form .inputBox span {
+    position: absolute;
+    left: 10%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    font-weight: 200;
+
+
+}
+
+.contact .left form .inputBox input:focus~span,
+.contact .left form .inputBox input:valid~span {
+    color: #3498db;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+
+.contact .left form .inputBox input[type="submit"] {
+    max-width: 300px;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+    padding: 10px;
+    background: #fff;
+    font-weight: 300;
+}
+
+.contact .left form .inputBox input[type="submit"]:hover {
+    transform: scale(1.05, 1.05);
+    box-shadow: 1px 1px 2px;
+}
+
+.contact .right {
+    display: flex;
+    justify-content:center;
+    
+}
+
+.contact .right .rightContent {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact .right .rightContent>div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.contact .right .rightContent>div>div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.contact .right .rightContent .direcciones div {
+    margin: 15px;
+}
+
+.contact .right .rightContent .direcciones div span {
+    margin: 5px ;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.contact .right .rightContent .social div {
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+    width: 90px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.contact .right .rightContent .social img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 15px;
+}
+
+.contact .right .rightContent .copy {
+    font-weight: 200;
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+
+    
+    header .imgHeader .imgGlass .headerContent p{
+        line-height: 1.5;
+    }
+
+    
+    header .imgHeader .imgGlass .headerContent h1 {
+        font-size: 3rem;    
+    }
+
+    .slider2 {
+        min-width: 500%;
+        margin-left: -50%;
+    }
+    
+    .slider2 .itemSlider2 {
+        width: 50%;
+    }
+    
+    
+    
+
+    
+}
+
+@media (min-width: 1024px) {
+    
+    header .imgHeader .imgGlass .headerContent h1 {
+        font-size: 3.5rem;
+    }
+
+    .slider2 {
+        min-width: 333.33%;
+        margin-left: -33.33%;
+    }
+    .slider2 .itemSlider2 {
+        width: 33.33%;
+    }
+
+
+
+
+    .about {
+        width: 100%;
+        padding-top: 100px;
+    }
+    
+    .about .mision-vision {
+        display:flex;
+    }
+    
+    .about .mision-vision .vision {
+        margin-top: 0;
+    }
+
+    
+    .about .mision-vision img {
+        width: 0;
+    
+    }
+    
+    .about .objetivos {
+        display: flex;
+    }
+    .about .objetivos{
+        height: 400px
+    }
+    .about .objetivos .content {
+        margin-top: 0;
+    }
+    .about .objetivos img{
+        object-fit: cover;
+        height: 400px;
+        width: 35%;
+    }
+
+    .contact{
+        display: flex;
+        
+    }
+
+    .contact .left,.contact .right{
+        width: 50%;
+
+    }
+    
+
+}
+
+@media (min-width: 1280px) {
+    header .imgHeader .imgGlass .headerContent {
+        max-width: 1000px;
+    }
+    header .imgHeader .imgGlass .headerContent p{
+        width: 80%;
+    }
+    .slider2 {
+        min-width: 250%;
+        margin-left: -25%;
+    }
+    .slider2 .itemSlider2 {
+        width: 25%;
+    }
+
+    
+    .about .mision-vision{
+        height: 400px;
+    }
+    .about .mision-vision img {
+        width: 30%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about .mision-vision .mision, .about .mision-vision .vision {
+   
+        padding: 5%;
+        width: 35%;
+    
+    }
+    
+}
